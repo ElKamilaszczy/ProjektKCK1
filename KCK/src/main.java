@@ -39,7 +39,7 @@ public class main {
 		e.printStackTrace();
 		//jakis komentarz
 		//jeszcze jeden komentarz
-		//jeszcze jeden xd
+		//ZMODYFIKOWANY KOMENTARZ
 		//ile mozna tych komentarzy pisac lul
 	}
 
