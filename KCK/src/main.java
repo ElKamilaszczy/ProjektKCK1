@@ -30,9 +30,10 @@ import java.util.regex.Pattern;
 public class main {
     public static void main(String[] args) {
     
-    Interfejs Inter = new Interfejs();
+    
     try {
-		Inter.Logowanie();
+    	Interfejs Inter = new Interfejs();
+    	Inter.Logowanie();
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
