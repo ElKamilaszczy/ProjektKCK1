@@ -22,7 +22,7 @@ import com.googlecode.lanterna.screen.TerminalScreen;
 import com.googlecode.lanterna.terminal.DefaultTerminalFactory;
 import com.googlecode.lanterna.terminal.Terminal;
 import com.googlecode.lanterna.terminal.TerminalResizeListener;
-////
+////////
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.regex.Pattern;
