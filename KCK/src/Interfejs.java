@@ -28,7 +28,7 @@ public class Interfejs {
 
         // Create panel to hold components
         Panel panel = new Panel();
-        panel.setLayoutManager(new GridLayout(3));
+        panel.setLayoutManager(new GridLayout(2));
 
         panel.addComponent(new Label("Login"));
         panel.addComponent(new TextBox());
