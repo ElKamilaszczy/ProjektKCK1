@@ -10,6 +10,17 @@ public class Centrala {
 	public List<Lekarz> getLekarze() {
 		return lekarze;
 	}
+	public String Logowanie(String login, String haslo)
+	{
+		if(login == "admin" && haslo == "admin")
+			return login;
+		for (Lekarz a : lekarze)
+		{
+			if(a.getLogin() == login && a.getHaslo() == haslo)
+				return login;
+		}
+		return "";
+	}
 	public List<Pacjent> getPacjenci() {
 		return pacjenci;
 	}
