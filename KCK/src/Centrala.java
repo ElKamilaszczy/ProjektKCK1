@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 //siemka
 //costam
+//Jeszcze jedno
 public class Centrala {
 	
 	private List<Lekarz> lekarze = new ArrayList<Lekarz>();
