@@ -2,6 +2,7 @@
 
 import java.util.Date;
 //data
+//kolejny
 public class Recepta {
 	
 	private static int total_id = 0;
