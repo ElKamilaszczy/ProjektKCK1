@@ -1,4 +1,4 @@
-//KOMENATRZ
+//KOMENATRZ assasasasa
 public class Pacjent {
 	private String pesel;
 	private String imie;
