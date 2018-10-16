@@ -28,34 +28,15 @@ import java.util.Arrays;
 import java.util.regex.Pattern;
 
 public class main {
-    public static void main(String[] args) throws IOException {
-    	// Setup terminal and screen layers
-        Terminal terminal = new DefaultTerminalFactory().createTerminal();
-        
-        Screen screen = new TerminalScreen(terminal);
-        screen.startScreen();
+    public static void main(String[] args) {
+    
+    Interfejs Inter = new Interfejs();
+    try {
+		Inter.Logowanie();
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
 
-        // Create panel to hold components
-        Panel panel = new Panel();
-        panel.setLayoutManager(new GridLayout(3));
-
-        panel.addComponent(new Label("Login"));
-        panel.addComponent(new TextBox());
-
-        panel.addComponent(new Label("Has³o"));
-        panel.addComponent(new TextBox());
-
-        panel.addComponent(new EmptySpace(new TerminalSize(0,0))); // Empty space underneath labels
-        panel.addComponent(new Button("Submit"));
-
-        // Create window to hold the panel
-    	BasicWindow window = new BasicWindow();
-    	window.setHints(Arrays.asList(Window.Hint.CENTERED));
-        window.setComponent(panel);
-
-        // Create gui and start gui
-        MultiWindowTextGUI gui = new MultiWindowTextGUI(screen, new DefaultWindowManager(), new EmptySpace(TextColor.ANSI.BLUE));
-        gui.addWindowAndWait(window);
-
-}
+	}
 }
