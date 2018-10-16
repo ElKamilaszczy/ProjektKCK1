@@ -11,16 +11,19 @@ public class Wizyta {
 	private Date data;
 	private String opis;
 	
-		public Wizyta(int id, int id_lekarza, String pesel_pacjenta, String cel, String opis, String data) {
+		public Wizyta(int id_lekarza, String pesel_pacjenta, String opis, String data) {
 		this.id = total_id++;
 		this.id_lekarza = id_lekarza;
 		this.pesel_pacjenta = pesel_pacjenta;
-		SimpleDateFormat formatter = new SimpleDateFormat("dd-MMM-yyyy HH:mm");
-		try {
-		    this.data = formatter.parse(data);
+		SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy HH:mm");
+		
+		    try {
+				this.data = formatter.parse(data);
+			} catch (ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		    
-		} catch (ParseException e) {
-		}
 		this.opis = opis;
 	}
 	
@@ -43,7 +46,7 @@ public class Wizyta {
 		return data;
 	}
 	public void setData(String data) {
-		SimpleDateFormat formatter = new SimpleDateFormat("dd-MMM-yyyy HH:mm");
+		SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy HH:mm");
 		try {
 		    this.data = formatter.parse(data);
 		    

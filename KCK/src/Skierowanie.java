@@ -10,7 +10,7 @@ public class Skierowanie {
 	private String cel;
 	private String opis;
 	
-	public Skierowanie(int id, int id_lekarza, String pesel_pacjenta, String cel, String opis) {
+	public Skierowanie(int id_lekarza, String pesel_pacjenta, String cel, String opis) {
 		this.id = total_id++;
 		this.id_lekarza = id_lekarza;
 		this.pesel_pacjenta = pesel_pacjenta;
