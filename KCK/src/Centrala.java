@@ -3,7 +3,7 @@ import java.util.List;
 //siemka
 //costam
 //Jeszcze jedno
-//asdasdasdasdsa
+//asdasdasdasdsadasd
 public class Centrala {
 	
 	private List<Lekarz> lekarze = new ArrayList<Lekarz>();
