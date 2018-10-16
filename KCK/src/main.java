@@ -38,6 +38,7 @@ public class main {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 		//jakis komentarz
+		//jeszcze jeden komentarz
 	}
 
 	}
