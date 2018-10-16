@@ -8,7 +8,7 @@
 
 //Kolejny
 //
-//
+//saaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 public class Pacjent {
 	private String pesel;
 	private String imie;
