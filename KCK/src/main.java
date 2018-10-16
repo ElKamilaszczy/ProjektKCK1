@@ -40,7 +40,7 @@ public class main {
 		//jakis komentarz
 		//jeszcze jeden komentarz
 		//ZMODYFIKOWANY KOMENTARZ
-		//ile mozna tych komentarzy pisac lul
+		//KOLEJNY ZMODYFIKOWANY
 	}
 
 	}
