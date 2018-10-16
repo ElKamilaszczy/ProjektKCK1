@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-
+//siemka
 public class Centrala {
 	private List<Lekarz> lekarze = new ArrayList<Lekarz>();
 	private List<Pacjent> pacjenci = new ArrayList<Pacjent>();
