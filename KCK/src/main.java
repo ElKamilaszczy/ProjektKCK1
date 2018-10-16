@@ -40,6 +40,7 @@ public class main {
 		//jakis komentarz
 		//jeszcze jeden komentarz
 		//jeszcze jeden xd
+		//ile mozna tych komentarzy pisac lul
 	}
 
 	}
