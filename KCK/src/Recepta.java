@@ -1,7 +1,7 @@
 
 
 import java.util.Date;
-
+//data
 public class Recepta {
 	
 	private static int total_id = 0;
